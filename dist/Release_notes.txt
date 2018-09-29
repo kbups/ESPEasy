@@ -1,4 +1,40 @@
 -------------------------------------------------
+Changes in release mega-20180927 (since mega-20180924)
+-------------------------------------------------
+
+Release date: Thu Sep 27 04:00:17 CEST 2018
+
+TD-er (7):
+      [ESP32] Change partition size (will clear all settings) and add plugins
+      [Travis] Uninitialized variable in P073_7DGT
+      [Stack] Move Settings from stack to heap
+      [ESP32] RTOS move handle_schedule() to core1 and increase stack
+      [Info] Add board name to the sysinfo page.
+      [ESP32] Split new partition layout to separate build
+      [Build] Add esp32test_1M8_partition build and warning on ESP32 partition
+
+
+-------------------------------------------------
+Changes in release mega-20180924 (since mega-20180923)
+-------------------------------------------------
+
+Release date: Mon Sep 24 04:00:20 CEST 2018
+
+Benno Eigenmann (1):
+      Fix platformio
+
+TD-er (2):
+      [MQTT] Work around for lost MQTT connection
+      [ESP32] Fix I2C handling to allow I2C devices to work
+
+sakinit (1):
+      change to platform version core_esp32_1_3_0
+
+stefan (1):
+      Change type of sensor for MCP and PCF devices
+
+
+-------------------------------------------------
 Changes in release mega-20180923 (since mega-20180922)
 -------------------------------------------------
 
